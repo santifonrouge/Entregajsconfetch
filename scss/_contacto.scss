@@ -1,0 +1,48 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+    button[type="submit"] {
+    background-color: #3a37c0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+    input,
+    textarea {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+}
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  iframe {
+      width: 100%;
+      max-width: 800px;
+      height: 450px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+}
+

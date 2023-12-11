@@ -1,0 +1,49 @@
+/* Agrego margen al mapa en sus costados*/
+@media(max-width:850px){
+    .mapa{
+        margin: 20px;
+    }
+}
+
+@media(max-width:530px){
+    .imagenesAnimadas{
+        margin: 20px;
+    }
+}
+ /* Footer responsive*/
+@media(max-width:768px){
+    .piePagina{
+        grid-template-columns: 1fr 1fr;
+    }
+    .piePagina .redes{
+        grid-column: 1/3;
+    }
+}
+
+ /* Formulario y Mapa de página Contactos al lado*/
+@media (min-width: 950px) { 
+    .contenedorContacto {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+    }
+  
+    .formulario {
+      flex: 1; /* Ocupa la mitad del ancho disponible */
+      max-width: 50%;
+    }
+  
+    .mapa {
+      flex: 1; /* Ocupa la mitad del ancho disponible */
+      max-width: 50%;
+    }
+  }
+  
+
+  /* Disminución altura del carrusel para mobile */
+@media screen and (max-width: 768px) {
+    .carousel .carousel-item img {
+      height: 400px; 
+    }
+  }
+  

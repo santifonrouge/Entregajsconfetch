@@ -1,0 +1,20 @@
+.imagenesAnimadas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    img{
+      max-width: 500px;
+      object-fit: cover;
+      padding: 10px;
+      transition: 0.5s;
+    }
+    img:hover {
+      transform: translate(-50px, 10px);
+    }    
+  }
+
+ 
+  
+  
